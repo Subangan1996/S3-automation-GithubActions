@@ -23,10 +23,9 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./angular-demo-app-s3-deployment-test
-        run: npm install
-
-      - name: Build Angular app
-        run: npm run build -- --prod
+        run: |
+            npm install
+            npm run build --prod
 
       - name: Deploy to S3 bucket
         uses: jakejarvis/s3-sync-action@master
