@@ -10,5 +10,5 @@ import { RouterOutlet } from '@angular/router';
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'angular-demo-app-s3-deployment-test';
+  title = 'demo-new-angular-app';
 }
