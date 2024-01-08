@@ -19,7 +19,7 @@ jobs:
           node-version: '14'
 
       - name: Change directory to Angular app
-        run: cd demo-angular-app-deployment
+        run: cd "demo-angular-app-deployment"
 
       - name: Install dependencies
         run: npm install
