@@ -13,6 +13,9 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v2
 
+      - name: Change to app directory
+        run: cd S3-automation-GithubActions/angular-demo-app-s3-deployment-test
+
       - name: Set up Node.js
         uses: actions/setup-node@v2
         with:
